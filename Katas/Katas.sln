@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PH no 1", "Katas\PH no 1.csproj", "{3F8C21EC-3751-4A64-B280-434BDE9B4945}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Poker Hand", "Poker Hand", "{DFB2938E-40F8-436A-A247-6BCD8D274C2A}"
+	ProjectSection(SolutionItems) = preProject
+		Rules.txt = Rules.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F8C21EC-3751-4A64-B280-434BDE9B4945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8C21EC-3751-4A64-B280-434BDE9B4945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8C21EC-3751-4A64-B280-434BDE9B4945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8C21EC-3751-4A64-B280-434BDE9B4945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F8C21EC-3751-4A64-B280-434BDE9B4945} = {DFB2938E-40F8-436A-A247-6BCD8D274C2A}
+	EndGlobalSection
+EndGlobal
