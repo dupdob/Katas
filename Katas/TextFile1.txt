@@ -1,0 +1,19 @@
+Diamond Kata
+*************
+
+Objective of this kata is to implement a function that generate an ASCII diamond of any given size.
+For any given input x:
+The first diamond line will use the letter A, second B, and so on, until you reach a width of x.
+Following lines decrease in size and move through the alphabet backward.
+Examples:
+1 -> A
+
+2 -> A
+    B B
+     A
+
+3 -> A
+    B B
+   C   C
+    B B
+     A
