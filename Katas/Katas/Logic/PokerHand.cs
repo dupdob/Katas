@@ -70,5 +70,27 @@ namespace PokerHandKata.Logic
             }
             return builder.ToString();
         }
+
+        public IEnumerable<Combination> ToCombinations()
+        {
+            var ret = new List<Combination>(5);
+            foreach (var card in this.cards)
+            {
+                var combo = new Combination
+                {
+                    Figure = Figure.SingleCard,
+                    Height = card.Label
+                };
+                ret.Add(combo);
+            }
+            return ret;
+        }
+    }
+
+    public enum Figure {SingleCard, Pair, ThreeOfAKind, Straight, Flush, Full, FourOfAKind, StraightFlush }
+    public class Combination
+    {
+        public Figure Figure { get; set; }
+        public CardLabel Height { get; set; }
     }
 }

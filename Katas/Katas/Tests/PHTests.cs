@@ -61,5 +61,14 @@ namespace PokerHandKata.Tests
             tester.Parse("2H 3D 5S 9C KD");
             Check.That(tester.FindPair()).IsEqualTo(null);
         }
+
+        [Test]
+        public void ListSimpleCardCombination()
+        {
+            var tester = new PokerHand();
+            tester.Parse("2H 3D 5S 9C KD");
+            Check.That(tester.ToCombinations().Extracting("Figure")).ContainsExactly(new {Figure.SingleCard});
+
+        }
     }
 }
